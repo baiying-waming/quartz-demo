@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql:///test?serverTimezone=GMT%2B8&characterEncoding=UTF8
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8081
+
+
+logging:
+  level:
+    com.he : debug
